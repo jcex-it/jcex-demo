@@ -5,7 +5,6 @@ import com.jcex.open.easysdk.request.OpenAuthTokenAppRequest;
 import com.jcex.open.easysdk.request.WayBillRequest;
 import com.jcex.open.easysdk.response.CommonResponse;
 import com.jcex.open.easysdk.response.OpenAuthTokenAppResponse;
-import org.junit.jupiter.api.DynamicTest;
 import org.junit.jupiter.api.Test;
 
 import java.util.Calendar;
@@ -27,6 +26,10 @@ public class EasySdkTest {
     static final String accessToken = "162c577290c4f4aa63453f99c6f08501";
 
     OpenClient client = new OpenClient(url, appId, privateKeyIsv,"http://www.jcex.com");
+
+    public static void main(String[] args) {
+
+    }
 
     /*
     获取token
